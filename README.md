@@ -2,11 +2,9 @@
 
 Visitor site: https://techfundoffice.github.io/mausbot-pages/
 
-That is the GitHub Pages staging site. Do not open https://mausbot.com when you are checking this repo.
+That is the GitHub Pages staging site. It serves the cloned pages in `mirror/`. Do not open https://mausbot.com when you are checking this repo.
 
-The published pages are Markdown files in `content/pages`. [Pages CMS](https://pagescms.org) edits them through `.pages.yml`. GitHub Pages renders them with the Cayman theme (`theme: jekyll-theme-cayman` in `_config.yml`), which is one of the themes GitHub Pages supports.
-
-The original goclone snapshot of https://mausbot.com/sitemap.xml is in `mirror/`. Jekyll does not publish that folder.
+`.github/workflows/pages.yml` publishes `mirror/` as the site root. The Markdown files in `content/pages` stay in the repo so [Pages CMS](https://pagescms.org) can edit them through `.pages.yml`. Those Markdown files are not the visitor site.
 
 ## Edit in Pages CMS
 
@@ -15,4 +13,4 @@ The original goclone snapshot of https://mausbot.com/sitemap.xml is in `mirror/`
 3. Open `techfundoffice/mausbot-pages`.
 4. Edit a page under Pages. A save commits the Markdown file back to `main`.
 
-Each page has a title, a description, a URL, and a body. The layout stays `default`, which is the Cayman theme layout.
+Each page has a title, a description, a URL, and a body. Saving in Pages CMS updates the Markdown file. It does not replace the cloned HTML that visitors see.
