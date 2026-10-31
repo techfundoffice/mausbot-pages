@@ -2,3 +2,7 @@
 Thumbs.db
 *.tmp
 *.log
+_site/
+.jekyll-cache/
+.bundle/
+vendor/

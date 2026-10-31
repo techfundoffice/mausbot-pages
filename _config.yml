@@ -1,0 +1,12 @@
+title: MausBot
+description: Pages from the MausBot sitemap.
+theme: jekyll-theme-cayman
+show_downloads: false
+plugins:
+  - jekyll-seo-tag
+exclude:
+  - mirror
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
