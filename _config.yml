@@ -1,5 +1,8 @@
 title: MausBot
 description: Pages from the MausBot sitemap.
+# Visitor site. This is the GitHub Pages staging site, not https://mausbot.com.
+url: https://techfundoffice.github.io
+baseurl: /mausbot-pages
 theme: jekyll-theme-cayman
 show_downloads: false
 plugins:

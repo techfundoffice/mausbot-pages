@@ -2,3 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
+
+.staging-banner {
+  margin: 1rem 0 0;
+  color: #fff;
+  font-weight: 700;
+}

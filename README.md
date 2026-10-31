@@ -1,5 +1,9 @@
 # MausBot pages
 
+Visitor site: https://techfundoffice.github.io/mausbot-pages/
+
+That is the GitHub Pages staging site. Do not open https://mausbot.com when you are checking this repo.
+
 The published pages are Markdown files in `content/pages`. [Pages CMS](https://pagescms.org) edits them through `.pages.yml`. GitHub Pages renders them with the Cayman theme (`theme: jekyll-theme-cayman` in `_config.yml`), which is one of the themes GitHub Pages supports.
 
 The original goclone snapshot of https://mausbot.com/sitemap.xml is in `mirror/`. Jekyll does not publish that folder.

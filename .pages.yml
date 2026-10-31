@@ -2,6 +2,22 @@ media:
   input: media
   output: /media
 content:
+  - name: staging
+    label: Staging site
+    type: file
+    path: staging.yml
+    format: yaml
+    fields:
+      - name: visitor_url
+        label: Visitor URL
+        type: string
+        required: true
+      - name: live_site
+        label: Live site, do not open
+        type: string
+      - name: note
+        label: Note
+        type: text
   - name: pages
     label: Pages
     type: collection
